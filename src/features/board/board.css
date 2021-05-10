@@ -1,0 +1,19 @@
+.board {
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 160px;
+  height: 160px;
+  border: 2px solid black;
+}
+
+.bomb {
+  width: 16px;
+  height: 16px;
+  background-color: black;
+}
+
+.box {
+  width: 16px;
+  height: 16px;
+}
